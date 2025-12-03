@@ -1,24 +1,89 @@
 .presentation{
+    margin: 2% auto;
     display: flex;
     flex-direction: column;
     width: 50%;
     height: auto;
-    background: linear-gradient(to top right, rgb(255, 255, 107), rgb(212, 115, 212));
+    background-color: #a6ed82;
     align-items: center;
     justify-content: center;
-    margin: auto;
     padding: 15px;
     border-radius: 20px;
     text-align: center;
-    box-shadow: -10px 30px 20px silver;
+    box-shadow: -10px 30px 20px #d3d3a9;
 }
 
 .present_titre{
-    color: rgb(128, 0, 128);
-    text-decoration-color: rgb(128, 0, 128);
+    color: #1aa59a;
+    text-decoration-color: #1aa59a;
 }
 
 .competence{
+    margin: 5% auto;
     display: flex;
     flex-direction: column;
+    width: 50%;
+    height: auto;
+    background-color: #a6ed82;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: -10px 30px 20px #d3d3a9;
+}
+
+li{
+    display: block;
+    list-style: none;
+}
+
+.present_text{
+    color: white
+}
+
+.ulco{
+    color: white;
+}
+
+.compet_text{
+    color: white;
+}
+
+.hobby{
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    background-color: #a6ed82;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: -10px 30px 20px #d3d3a9;
+}
+
+.hobby_text{
+    color: white;
+}
+
+.compet_titre{
+    color: #1aa59a;
+    text-decoration-color: #1aa59a;
+}
+
+
+.hobby_titre{
+    color: #1aa59a;
+    text-decoration-color: #1aa59a;
+}
+
+#bulle:hover{
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+}
+
+#bulle{
+    transition: transform 0.3s ease;
 }

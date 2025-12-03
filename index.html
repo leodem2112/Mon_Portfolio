@@ -4,14 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page de présentation</title>
+    <title>Page de Présentation</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style_presentation.css">
 </head>
 
 <body>
     <header>
-        <h1>Bienvenue sur ma page de présentation</h1>
+        <figure>
+            <a href="https://cinefries.xyz/movies/Cars-Quatre-roues.mp4" target="_blank" class="cars_film"><img src="images/cars.avif" alt="cars"></a>
+        </figure>
+        <h1>Bienvenue sur mon site internet</h1>
         <nav>
             <a href="index.html ">Présentation</a>
             <a href="pages/parcours.html">Parcours</a>
@@ -22,28 +25,21 @@
     </header>
     <main>
         <section>
-            <div class="presentation">
-                <h2 class="present_titre">Courte présentation de moi-même :</h2>
-                <p>Je m'appelle Léo DEMAEREL, j'ai 18 ans, j'habite à Calais.<br>
-                Je suis actuellement en 1ère année de licence MSPI Informatique.<br>
-                </p>
-            </div>
-            <div class="competence">
-                <h2>Compétences</h2>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            <div class="hobby">
-                <h2>Hobby</h2>
-                <ul>
-                    <li class="hobby">Animes/Séries/Films</li>
-                    <li class="hobby">Musique</li>
-                    <li class="hobby">Jeux-Vidéos</li>
-                </ul>
+            <div class="gros">
+                <div class="presentation" id="bulle">
+                    <h2 class="present_titre"> Courte présentation de moi-même </h2>
+                    <p class="present_text">Je m'appelle Léo DEMAEREL, j'ai 18 ans, j'habite à Calais.<br>
+                    Je suis actuellement en 1ère année de licence MSPI Informatique à l'<a href="https://www.univ-littoral.fr" class="ulco" target="_blank">Ulco</a> Calais.<br>
+                    </p>
+                </div>
+                <div class="competence" id="bulle">
+                    <h2 class="compet_titre"> Compétences </h2>
+                    <p class="compet_text">Python<br>Langage C<br>HTML/CSS</p>
+                </div>
+                <div class="hobby" id="bulle">
+                    <h2 class="hobby_titre"> Hobby </h2>
+                    <p class="hobby_text">Animes/Séries/Films<br>Musique<br>Jeux-Vidéos</p>
+                </div>
             </div>
         </section>
     </main>

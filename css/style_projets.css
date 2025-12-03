@@ -13,5 +13,16 @@
 }
 
 .item-projets h3{
-    color: blueviolet;
+    color: #1aa59a;
+    text-decoration: underline;
+    text-decoration-color: #1aa59a;
+}
+
+#pro{
+    width: 100%;
+    border-radius: 8px;
+}
+
+p{
+    color: black;
 }
